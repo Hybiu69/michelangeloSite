@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gentium Plus", serif;
+    color: white;
+}
+.gentium-plus-regular {
+    font-family: "Gentium Plus", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+nav{
+    display: flex;
+    justify-content: space-between;
+    block-size: 100px;
+    padding-block:30px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-inline: 50px;
+    background-color: #349054;
+}
+li,a{
+    list-style: none;
+    text-decoration: none;
+    cursor:progress;
+    
+}
+a:hover{
+    color: #6c3500;
+}
+.titulo{
+    font-size: 30px;
+}
+.titulo a:hover{
+    color: #6c3500;
+ }
+ul{
+    block-size: 100%;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background:#326453;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border-block-start: 2px #9dedf6;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    background: #349054;
+}
+.frase{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    background-image: url("/img/mix-01.jpg");
+    background-size: cover;
+    padding:0px  350px;
+    text-align: center;
+}
+.frase h1{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00000070;
+}
+.sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    block-size: 100dvh;
+    padding: 50px;
+    background-color: #349054;   
+}
+
+.text1 {
+    display: flex;
+    block-size: inherit;
+    flex-direction: column;
+    justify-content: center;
+    inline-size: 600px;
+    padding: 5px;
+}
+
+.text1 h1 {
+    font-size: 3rem;
+}
+
+.text1 span {
+    font-size: 1.5rem;
+
+}
+.DI1{
+    inline-size: 30%;
+    margin-inline-end: 15%;
+}
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #69903D;
+}
+.sec2 h1{
+    font-size: 3rem;
+}
+.sec2 span{
+    font-size: 1.5rem;
+}
+.sec2 a{
+    text-decoration: underline;
+}
+.sec2 a:hover{
+   color:#6c3500;
+}
+.sec3{
+    background-image:url("/img/oioioi.png");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sec3 h1{
+    margin-block: 30px;
+    color: black;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 10px;
+}
+input[type=text], select {
+    inline-size: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+  }
+  
+  input[type=submit] {
+    inline-size: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
